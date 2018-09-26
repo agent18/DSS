@@ -1,0 +1,29 @@
+ 
+## data  <- read.csv("hw1_data.csv")
+
+
+pollutantmean  <- function(directory, pollutant, id=1:332) {
+
+    x <- vector(mode="numeric", length=0)
+
+    for (i in seq_along(id)) {
+
+        filename_short <- formatC(id[i], width = 3, format = "d",
+                                  flag = "0")
+        filename = paste(directory, "/", as.character(filename_short),
+                         ".csv", sep="")
+        data <- read.csv(filename)
+
+        d <- data[,pollutant]
+        x <- c(x,d[!is.na(d)])
+        
+    }
+
+    mean(x, na.rm=TRUE)
+}
+
+pollutantmean("specdata", "nitrate", 70:72)
+pollutantmean("specdata", "sulfate", 1:10) ## works    
+pollutantmean("specdata", "nitrate", 23) ## works
+
+    
