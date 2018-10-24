@@ -1,0 +1,749 @@
+
+> .ess.source('~/agent18/DSS/assignments/assignment-c2-w4/rankall.R', visibly = FALSE, output = TRUE)
+[1] 11
+[1] "data cleaned"
+the final list for rank 20 is being printed
+[1] 5
+[1] 51
+[1] 35
+[1] 45
+[1] 227
+[1] 33
+[1] 29
+[1] 5
+[1] 5
+[1] 158
+[1] 77
+[1] 1
+[1] 11
+[1] 35
+[1] 9
+[1] 124
+[1] 72
+[1] 30
+[1] 52
+[1] 51
+[1] 57
+[1] 41
+[1] 33
+[1] 83
+[1] 39
+[1] 63
+[1] 38
+[1] 10
+[1] 83
+[1] 11
+[1] 19
+[1] 20
+[1] 64
+[1] 13
+[1] 19
+[1] 151
+[1] 115
+[1] 40
+[1] 34
+[1] 135
+[1] 26
+[1] 11
+[1] 42
+[1] 12
+[1] 70
+[1] 196
+[1] 16
+[1] 73
+[1] 2
+[1] 12
+[1] 43
+[1] 58
+[1] 33
+[1] 3
+                         Hospital.Name State
+AK                                <NA>    AK
+AL      D W MCMILLAN MEMORIAL HOSPITAL    AL
+AR   ARKANSAS METHODIST MEDICAL CENTER    AR
+AZ JOHN C LINCOLN DEER VALLEY HOSPITAL    AZ
+CA               SHERMAN OAKS HOSPITAL    CA
+CO            SKY RIDGE MEDICAL CENTER    CO
+CT             MIDSTATE MEDICAL CENTER    CT
+DC                                <NA>    DC
+DE                                <NA>    DE
+FL      SOUTH FLORIDA BAPTIST HOSPITAL    FL
+[1] 23
+[1] "data cleaned"
+the final list for rank is being printed
+[1] 14
+Error in if (num > nrow(df)) return(data.frame(Hospital.Name = NA, State = df$State[[1]])) : 
+  argument is of length zero
+In addition: Warning messages:
+1: In rankall("heart attack", 20) : NAs introduced by coercion
+2: In rankall("pneumonia", "worst") : NAs introduced by coercion
+> outcome.data <- read.csv("outcome-of-care-measures.csv",
++                              colClasses = "character")
+> colnum <- 23
+> num <- "worst"
+> .ess.source('~/agent18/DSS/assignments/assignment-c2-w4/rankall.R', visibly = FALSE, output = TRUE)
+[1] 11
+[1] "data cleaned"
+the final list for rank 20 is being printed
+[1] 5
+[1] 51
+[1] 35
+[1] 45
+[1] 227
+[1] 33
+[1] 29
+[1] 5
+[1] 5
+[1] 158
+[1] 77
+[1] 1
+[1] 11
+[1] 35
+[1] 9
+[1] 124
+[1] 72
+[1] 30
+[1] 52
+[1] 51
+[1] 57
+[1] 41
+[1] 33
+[1] 83
+[1] 39
+[1] 63
+[1] 38
+[1] 10
+[1] 83
+[1] 11
+[1] 19
+[1] 20
+[1] 64
+[1] 13
+[1] 19
+[1] 151
+[1] 115
+[1] 40
+[1] 34
+[1] 135
+[1] 26
+[1] 11
+[1] 42
+[1] 12
+[1] 70
+[1] 196
+[1] 16
+[1] 73
+[1] 2
+[1] 12
+[1] 43
+[1] 58
+[1] 33
+[1] 3
+                         Hospital.Name State
+AK                                <NA>    AK
+AL      D W MCMILLAN MEMORIAL HOSPITAL    AL
+AR   ARKANSAS METHODIST MEDICAL CENTER    AR
+AZ JOHN C LINCOLN DEER VALLEY HOSPITAL    AZ
+CA               SHERMAN OAKS HOSPITAL    CA
+CO            SKY RIDGE MEDICAL CENTER    CO
+CT             MIDSTATE MEDICAL CENTER    CT
+DC                                <NA>    DC
+DE                                <NA>    DE
+FL      SOUTH FLORIDA BAPTIST HOSPITAL    FL
+[1] 23
+[1] "data cleaned"
+the final list for rank worst is being printed
+[1] 14
+[1] 91
+[1] 73
+[1] 65
+[1] 290
+[1] 60
+[1] 31
+[1] 7
+[1] 5
+[1] 174
+[1] 128
+[1] 1
+[1] 14
+[1] 106
+[1] 26
+[1] 175
+[1] 116
+[1] 96
+[1] 96
+[1] 85
+[1] 62
+[1] 45
+[1] 37
+[1] 126
+[1] 113
+[1] 105
+[1] 80
+[1] 38
+[1] 106
+[1] 34
+[1] 78
+[1] 26
+[1] 65
+[1] 36
+[1] 26
+[1] 175
+[1] 154
+[1] 106
+[1] 57
+[1] 157
+[1] 32
+[1] 11
+[1] 61
+[1] 38
+[1] 109
+[1] 301
+[1] 33
+[1] 81
+[1] 2
+[1] 15
+[1] 78
+[1] 118
+[1] 51
+[1] 24
+                                 Hospital.Name State
+AK                ALASKA NATIVE MEDICAL CENTER    AK
+AL                 JACKSONVILLE MEDICAL CENTER    AL
+AR                 RIVER VALLEY MEDICAL CENTER    AR
+AZ              HAVASU REGIONAL MEDICAL CENTER    AZ
+CA              DELANO REGIONAL MEDICAL CENTER    CA
+CO        ST MARYS HOSPITAL AND MEDICAL CENTER    CO
+CT                       MILFORD HOSPITAL, INC    CT
+DC              GEORGETOWN UNIVERSITY HOSPITAL    DC
+DE       CHRISTIANA CARE HEALTH SERVICES, INC.    DE
+FL        SEVEN RIVERS REGIONAL MEDICAL CENTER    FL
+GA            MCDUFFIE REGIONAL MEDICAL CENTER    GA
+GU            GUAM MEMORIAL HOSPITAL AUTHORITY    GU
+HI                MAUI MEMORIAL MEDICAL CENTER    HI
+IA                       BURGESS HEALTH CENTER    IA
+ID                 BEAR LAKE MEMORIAL HOSPITAL    ID
+IL                           ST JOHNS HOSPITAL    IL
+IN INDIANA UNIVERSITY HEALTH LA PORTE HOSPITAL    IN
+KS              WESTERN PLAINS MEDICAL COMPLEX    KS
+KY                     CALDWELL MEDICAL CENTER    KY
+LA           TERREBONNE GENERAL MEDICAL CENTER    LA
+MA                     ATHOL MEMORIAL HOSPITAL    MA
+MD                      CIVISTA MEDICAL CENTER    MD
+ME                          MID COAST HOSPITAL    ME
+MI                 ASPIRUS GRAND VIEW HOSPITAL    MI
+MN                      GLACIAL RIDGE HOSPITAL    MN
+MO          UNIVERSITY OF MISSOURI HEALTH CARE    MO
+MS                      BOLIVAR MEDICAL CENTER    MS
+MT                     GLENDIVE MEDICAL CENTER    MT
+NC                   VIDANT EDGECOMBE HOSPITAL    NC
+ND                    OAKES COMMUNITY HOSPITAL    ND
+NE                 MEMORIAL COMMUNITY HOSPITAL    NE
+NH               LAKES REGION GENERAL HOSPITAL    NH
+NJ              BERGEN REGIONAL MEDICAL CENTER    NJ
+NM                                UNM HOSPITAL    NM
+NV              RENOWN REGIONAL MEDICAL CENTER    NV
+NY                    ONEIDA HEALTHCARE CENTER    NY
+OH          COSHOCTON COUNTY MEMORIAL HOSPITAL    OH
+OK                MERCY MEMORIAL HEALTH CENTER    OK
+OR                           BAY AREA HOSPITAL    OR
+PA           POTTSTOWN MEMORIAL MEDICAL CENTER    PA
+PR                HOSPITAL SAN CARLOS BORROMEO    PR
+RI                   SOUTH COUNTY HOSPITAL INC    RI
+SC            LAURENS COUNTY HEALTHCARE SYSTEM    SC
+SD               HURON REGIONAL MEDICAL CENTER    SD
+TN              ATHENS REGIONAL MEDICAL CENTER    TN
+TX                    LIMESTONE MEDICAL CENTER    TX
+UT                         CASTLEVIEW HOSPITAL    UT
+VA                      SENTARA LEIGH HOSPITAL    VA
+VI           ROY LESTER SCHNEIDER HOSPITAL,THE    VI
+VT                        PORTER HOSPITAL, INC    VT
+WA                      OLYMPIC MEDICAL CENTER    WA
+WI  MAYO CLINIC HEALTH SYSTEM - NORTHLAND, INC    WI
+WV                      PLATEAU MEDICAL CENTER    WV
+WY            NORTH BIG HORN HOSPITAL DISTRICT    WY
+Sourced file ~/agent18/DSS/assignments/assignment-c2-w4/rankall.R
+Warning messages:
+1: In rankall("heart attack", 20) : NAs introduced by coercion
+2: In rankall("pneumonia", "worst") : NAs introduced by coercion
+> .ess.source('~/agent18/DSS/assignments/assignment-c2-w4/rankall.R', visibly = FALSE, output = TRUE)
+[1] 11
+[1] "data cleaned"
+the final list for rank 20 is being printed
+[1] 5
+[1] 51
+[1] 35
+[1] 45
+[1] 227
+[1] 33
+[1] 29
+[1] 5
+[1] 5
+[1] 158
+[1] 77
+[1] 1
+[1] 11
+[1] 35
+[1] 9
+[1] 124
+[1] 72
+[1] 30
+[1] 52
+[1] 51
+[1] 57
+[1] 41
+[1] 33
+[1] 83
+[1] 39
+[1] 63
+[1] 38
+[1] 10
+[1] 83
+[1] 11
+[1] 19
+[1] 20
+[1] 64
+[1] 13
+[1] 19
+[1] 151
+[1] 115
+[1] 40
+[1] 34
+[1] 135
+[1] 26
+[1] 11
+[1] 42
+[1] 12
+[1] 70
+[1] 196
+[1] 16
+[1] 73
+[1] 2
+[1] 12
+[1] 43
+[1] 58
+[1] 33
+[1] 3
+                         Hospital.Name State
+AK                                <NA>    AK
+AL      D W MCMILLAN MEMORIAL HOSPITAL    AL
+AR   ARKANSAS METHODIST MEDICAL CENTER    AR
+AZ JOHN C LINCOLN DEER VALLEY HOSPITAL    AZ
+CA               SHERMAN OAKS HOSPITAL    CA
+CO            SKY RIDGE MEDICAL CENTER    CO
+CT             MIDSTATE MEDICAL CENTER    CT
+DC                                <NA>    DC
+DE                                <NA>    DE
+FL      SOUTH FLORIDA BAPTIST HOSPITAL    FL
+[1] 23
+[1] "data cleaned"
+the final list for rank worst is being printed
+[1] 14
+[1] 91
+[1] 73
+[1] 65
+[1] 290
+[1] 60
+[1] 31
+[1] 7
+[1] 5
+[1] 174
+[1] 128
+[1] 1
+[1] 14
+[1] 106
+[1] 26
+[1] 175
+[1] 116
+[1] 96
+[1] 96
+[1] 85
+[1] 62
+[1] 45
+[1] 37
+[1] 126
+[1] 113
+[1] 105
+[1] 80
+[1] 38
+[1] 106
+[1] 34
+[1] 78
+[1] 26
+[1] 65
+[1] 36
+[1] 26
+[1] 175
+[1] 154
+[1] 106
+[1] 57
+[1] 157
+[1] 32
+[1] 11
+[1] 61
+[1] 38
+[1] 109
+[1] 301
+[1] 33
+[1] 81
+[1] 2
+[1] 15
+[1] 78
+[1] 118
+[1] 51
+[1] 24
+                                Hospital.Name State
+WI MAYO CLINIC HEALTH SYSTEM - NORTHLAND, INC    WI
+WV                     PLATEAU MEDICAL CENTER    WV
+WY           NORTH BIG HORN HOSPITAL DISTRICT    WY
+Sourced file ~/agent18/DSS/assignments/assignment-c2-w4/rankall.R
+Warning messages:
+1: In rankall("heart attack", 20) : NAs introduced by coercion
+2: In rankall("pneumonia", "worst") : NAs introduced by coercion
+> .ess.source('~/agent18/DSS/assignments/assignment-c2-w4/rankall.R', visibly = FALSE, output = TRUE)
+[1] 11
+[1] "data cleaned"
+the final list for rank 20 is being printed
+                         Hospital.Name State
+AK                                <NA>    AK
+AL      D W MCMILLAN MEMORIAL HOSPITAL    AL
+AR   ARKANSAS METHODIST MEDICAL CENTER    AR
+AZ JOHN C LINCOLN DEER VALLEY HOSPITAL    AZ
+CA               SHERMAN OAKS HOSPITAL    CA
+CO            SKY RIDGE MEDICAL CENTER    CO
+CT             MIDSTATE MEDICAL CENTER    CT
+DC                                <NA>    DC
+DE                                <NA>    DE
+FL      SOUTH FLORIDA BAPTIST HOSPITAL    FL
+[1] 23
+[1] "data cleaned"
+the final list for rank worst is being printed
+                                Hospital.Name State
+WI MAYO CLINIC HEALTH SYSTEM - NORTHLAND, INC    WI
+WV                     PLATEAU MEDICAL CENTER    WV
+WY           NORTH BIG HORN HOSPITAL DISTRICT    WY
+Sourced file ~/agent18/DSS/assignments/assignment-c2-w4/rankall.R
+Warning messages:
+1: In rankall("heart attack", 20) : NAs introduced by coercion
+2: In rankall("pneumonia", "worst") : NAs introduced by coercion
+> .ess.source('~/agent18/DSS/assignments/assignment-c2-w4/rankall.R', visibly = FALSE, output = TRUE)
+[1] 11
+[1] "data cleaned"
+the final list for rank 20 is being printed
+                         Hospital.Name State
+AK                                <NA>    AK
+AL      D W MCMILLAN MEMORIAL HOSPITAL    AL
+AR   ARKANSAS METHODIST MEDICAL CENTER    AR
+AZ JOHN C LINCOLN DEER VALLEY HOSPITAL    AZ
+CA               SHERMAN OAKS HOSPITAL    CA
+CO            SKY RIDGE MEDICAL CENTER    CO
+CT             MIDSTATE MEDICAL CENTER    CT
+DC                                <NA>    DC
+DE                                <NA>    DE
+FL      SOUTH FLORIDA BAPTIST HOSPITAL    FL
+[1] 23
+[1] "data cleaned"
+the final list for rank worst is being printed
+                                Hospital.Name State
+WI MAYO CLINIC HEALTH SYSTEM - NORTHLAND, INC    WI
+WV                     PLATEAU MEDICAL CENTER    WV
+WY           NORTH BIG HORN HOSPITAL DISTRICT    WY
+[1] 17
+[1] "data cleaned"
+the final list for rank best is being printed
+                                                       Hospital.Name State
+TN                         WELLMONT HAWKINS COUNTY MEMORIAL HOSPITAL    TN
+TX                                        FORT DUNCAN MEDICAL CENTER    TX
+UT VA SALT LAKE CITY HEALTHCARE - GEORGE E. WAHLEN VA MEDICAL CENTER    UT
+VA                                          SENTARA POTOMAC HOSPITAL    VA
+VI                            GOV JUAN F LUIS HOSPITAL & MEDICAL CTR    VI
+VT                                              SPRINGFIELD HOSPITAL    VT
+WA                                         HARBORVIEW MEDICAL CENTER    WA
+WI                                    AURORA ST LUKES MEDICAL CENTER    WI
+WV                                         FAIRMONT GENERAL HOSPITAL    WV
+WY                                        CHEYENNE VA MEDICAL CENTER    WY
+Sourced file ~/agent18/DSS/assignments/assignment-c2-w4/rankall.R
+Warning messages:
+1: In rankall("heart attack", 20) : NAs introduced by coercion
+2: In rankall("pneumonia", "worst") : NAs introduced by coercion
+3: In rankall("heart failure") : NAs introduced by coercion
+> source(best.R)
+Error in source(best.R) : object 'best.R' not found
+> source("best.R")
+[1] "AK"
+[1] 17
+[1] "data cleaned"
+[1] "SOUTH PENINSULA HOSPITAL"
+Warning message:
+In best("AK", "heart failure") : NAs introduced by coercion
+> best("SC", "heart attack")
+[1] "SC"
+[1] 11
+[1] "data cleaned"
+[1] "MUSC MEDICAL CENTER"
+Warning message:
+In best("SC", "heart attack") : NAs introduced by coercion
+> best("NY", "pneumonia")
+[1] "NY"
+[1] 23
+[1] "data cleaned"
+[1] "MAIMONIDES MEDICAL CENTER"
+Warning message:
+In best("NY", "pneumonia") : NAs introduced by coercion
+> best("AK", "pneumonia")
+[1] "AK"
+[1] 23
+[1] "data cleaned"
+[1] "YUKON KUSKOKWIM DELTA REG HOSPITAL"
+Warning message:
+In best("AK", "pneumonia") : NAs introduced by coercion
+> rankhospital("NC", "heart attack", "worst")
+[1] "NC"
+[1] 11
+[1] "data cleaned"
+[1] "WAYNE MEMORIAL HOSPITAL"
+Warning message:
+In rankhospital("NC", "heart attack", "worst") : NAs introduced by coercion
+> rankhospital("WA", "heart attack", 7)
+[1] "WA"
+[1] 11
+[1] "data cleaned"
+[1] "YAKIMA VALLEY MEMORIAL HOSPITAL"
+Warning message:
+In rankhospital("WA", "heart attack", 7) : NAs introduced by coercion
+> rankhospital("TX", "pneumonia", 10)
+[1] "TX"
+[1] 23
+[1] "data cleaned"
+[1] "SETON SMITHVILLE REGIONAL HOSPITAL"
+Warning message:
+In rankhospital("TX", "pneumonia", 10) : NAs introduced by coercion
+> rankhospital("NY", "heart attack", 7)
+[1] "NY"
+[1] 11
+[1] "data cleaned"
+[1] "BELLEVUE HOSPITAL CENTER"
+Warning message:
+In rankhospital("NY", "heart attack", 7) : NAs introduced by coercion
+> r <- rankall("heart attack", 4)
+as.character(subset(r, state == "HI")$hospital)
+
+r <- rankall("heart attack", 4)
+[1] 11
+[1] "data cleaned"
+the final list for rank 4 is being printed
+Warning message:
+In rankall("heart attack", 4) : NAs introduced by coercion
+> as.character(subset(r, state == "HI")$hospital)
+Error in eval(e, x, parent.frame()) : object 'state' not found
+> r <- rankall("pneumonia", "worst")
+as.character(subset(r, state == "NJ")$hospital)
+r <- rankall("pneumonia", "worst")
+[1] 23
+[1] "data cleaned"
+the final list for rank worst is being printed
+Warning message:
+In rankall("pneumonia", "worst") : NAs introduced by coercion
+> as.character(subset(r, state == "NJ")$hospital)
+Error in eval(e, x, parent.frame()) : object 'state' not found
+> r <- rankall("heart failure", 10)
+as.character(subset(r, state == "NV")$hospital)
+r <- rankall("heart failure", 10)
+[1] 17
+[1] "data cleaned"
+the final list for rank 10 is being printed
+Warning message:
+In rankall("heart failure", 10) : NAs introduced by coercion
+> as.character(subset(r, state == "NV")$hospital)
+Error in eval(e, x, parent.frame()) : object 'state' not found
+> .ess.source('~/agent18/DSS/assignments/assignment-c2-w4/rankall.R', visibly = FALSE, output = TRUE)
+[1] 11
+[1] "data cleaned"
+the final list for rank 20 is being printed
+                         Hospital.Name State
+AK                                <NA>    AK
+AL      D W MCMILLAN MEMORIAL HOSPITAL    AL
+AR   ARKANSAS METHODIST MEDICAL CENTER    AR
+AZ JOHN C LINCOLN DEER VALLEY HOSPITAL    AZ
+CA               SHERMAN OAKS HOSPITAL    CA
+CO            SKY RIDGE MEDICAL CENTER    CO
+CT             MIDSTATE MEDICAL CENTER    CT
+DC                                <NA>    DC
+DE                                <NA>    DE
+FL      SOUTH FLORIDA BAPTIST HOSPITAL    FL
+[1] 23
+[1] "data cleaned"
+the final list for rank worst is being printed
+                                Hospital.Name State
+WI MAYO CLINIC HEALTH SYSTEM - NORTHLAND, INC    WI
+WV                     PLATEAU MEDICAL CENTER    WV
+WY           NORTH BIG HORN HOSPITAL DISTRICT    WY
+[1] 17
+[1] "data cleaned"
+the final list for rank best is being printed
+                                                       Hospital.Name State
+TN                         WELLMONT HAWKINS COUNTY MEMORIAL HOSPITAL    TN
+TX                                        FORT DUNCAN MEDICAL CENTER    TX
+UT VA SALT LAKE CITY HEALTHCARE - GEORGE E. WAHLEN VA MEDICAL CENTER    UT
+VA                                          SENTARA POTOMAC HOSPITAL    VA
+VI                            GOV JUAN F LUIS HOSPITAL & MEDICAL CTR    VI
+VT                                              SPRINGFIELD HOSPITAL    VT
+WA                                         HARBORVIEW MEDICAL CENTER    WA
+WI                                    AURORA ST LUKES MEDICAL CENTER    WI
+WV                                         FAIRMONT GENERAL HOSPITAL    WV
+WY                                        CHEYENNE VA MEDICAL CENTER    WY
+Sourced file ~/agent18/DSS/assignments/assignment-c2-w4/rankall.R
+Warning messages:
+1: In rankall("heart attack", 20) : NAs introduced by coercion
+2: In rankall("pneumonia", "worst") : NAs introduced by coercion
+3: In rankall("heart failure") : NAs introduced by coercion
+> class(df.final)
+[1] "data.frame"
+> r <- rankall("heart attack", 4)
+
+r <- rankall("heart attack", 4)
+[1] 11
+[1] "data cleaned"
+the final list for rank 4 is being printed
+Warning message:
+In rankall("heart attack", 4) : NAs introduced by coercion
+> head(r,10)
+                          Hospital.Name State
+AK         ALASKA NATIVE MEDICAL CENTER    AK
+AL                   GEORGIANA HOSPITAL    AL
+AR        NEA BAPTIST MEMORIAL HOSPITAL    AR
+AZ BANNER GOOD SAMARITAN MEDICAL CENTER    AZ
+CA          CEDARS-SINAI MEDICAL CENTER    CA
+CO      EXEMPLA LUTHERAN MEDICAL CENTER    CO
+CT                 SAINT MARYS HOSPITAL    CT
+DC           WASHINGTON HOSPITAL CENTER    DC
+DE          NANTICOKE MEMORIAL HOSPITAL    DE
+FL        PALM SPRINGS GENERAL HOSPITAL    FL
+> r
+                                  Hospital.Name State
+AK                 ALASKA NATIVE MEDICAL CENTER    AK
+AL                           GEORGIANA HOSPITAL    AL
+AR                NEA BAPTIST MEMORIAL HOSPITAL    AR
+AZ         BANNER GOOD SAMARITAN MEDICAL CENTER    AZ
+CA                  CEDARS-SINAI MEDICAL CENTER    CA
+CO              EXEMPLA LUTHERAN MEDICAL CENTER    CO
+CT                         SAINT MARYS HOSPITAL    CT
+DC                   WASHINGTON HOSPITAL CENTER    DC
+DE                  NANTICOKE MEMORIAL HOSPITAL    DE
+L                PALM SPRINGS GENERAL HOSPITAL    FL
+GA                              GORDON HOSPITAL    GA
+GU                                         <NA>    GU
+HI                        CASTLE MEDICAL CENTER    HI
+IA              MERCY MEDICAL CENTER-NORTH IOWA    IA
+ID             ST LUKES REGIONAL MEDICAL CENTER    ID
+IL              LITTLE COMPANY OF MARY HOSPITAL    IL
+IN                     COMMUNITY HOSPITAL SOUTH    IN
+KS                          HAYS MEDICAL CENTER    KS
+KY                CLARK REGIONAL MEDICAL CENTER    KY
+LA                  OCHSNER FOUNDATION HOSPITAL    LA
+MA                             EMERSON HOSPITAL    MA
+MD                          HOLY CROSS HOSPITAL    MD
+ME                 AROOSTOOK MEDICAL CENTER,THE    ME
+MI               WILLIAM BEAUMONT HOSPITAL-TROY    MI
+MN                MINNEAPOLIS VA MEDICAL CENTER    MN
+MO             ST LUKES HOSPITAL OF KANSAS CITY    MO
+MS           BAPTIST MEMORIAL HOSPITAL NORTH MS    MS
+MT                 COMMUNITY MEDICAL CENTER INC    MT
+NC                IREDELL MEMORIAL HOSPITAL INC    NC
+ND                                MEDCENTER ONE    ND
+NE                    ST FRANCIS MEDICAL CENTER    NE
+NH                 PORTSMOUTH REGIONAL HOSPITAL    NH
+NJ                 MORRISTOWN MEMORIAL HOSPITAL    NJ
+NM                  MEMORIAL MEDICAL CENTER INC    NM
+NV SAINT ROSE DOMINICAN HOSPITAL - SIENA CAMPUS    NV
+NY                  ST FRANCIS HOSPITAL, ROSLYN    NY
+OH                      GOOD SAMARITAN HOSPITAL    OH
+OK                    STILLWATER MEDICAL CENTER    OK
+OR                PROVIDENCE MILWAUKIE HOSPITAL    OR
+PA                       LEHIGH VALLEY HOSPITAL    PA
+PR                       HOSPITAL DR SUSONI INC    PR
+RI                KENT COUNTY MEMORIAL HOSPITAL    RI
+SC                     TUOMEY HEALTHCARE SYSTEM    SC
+SD                   SANFORD USD MEDICAL CENTER    SD
+TN       WELLMONT HOLSTON VALLEY MEDICAL CENTER    TN
+TX          PARKLAND HEALTH AND HOSPITAL SYSTEM    TX
+UT                OGDEN REGIONAL MEDICAL CENTER    UT
+VA            RIVERSIDE REGIONAL MEDICAL CENTER    VA
+VI                                         <NA>    VI
+VT     NORTH COUNTRY HOSPITAL AND HEALTH CENTER    VT
+WA                VIRGINIA MASON MEDICAL CENTER    WA
+WI               AURORA ST LUKES MEDICAL CENTER    WI
+WV                     ST MARY'S MEDICAL CENTER    WV
+WY                                         <NA>    WY
+> .ess.source('~/agent18/DSS/assignments/assignment-c2-w4/rankall.R', visibly = FALSE, output = TRUE)
+[1] 11
+[1] "data cleaned"
+the final list for rank 20 is being printed
+                              hospital state
+AK                                <NA>    AK
+AL      D W MCMILLAN MEMORIAL HOSPITAL    AL
+AR   ARKANSAS METHODIST MEDICAL CENTER    AR
+AZ JOHN C LINCOLN DEER VALLEY HOSPITAL    AZ
+CA               SHERMAN OAKS HOSPITAL    CA
+CO            SKY RIDGE MEDICAL CENTER    CO
+CT             MIDSTATE MEDICAL CENTER    CT
+DC                                <NA>    DC
+DE                                <NA>    DE
+FL      SOUTH FLORIDA BAPTIST HOSPITAL    FL
+[1] 23
+[1] "data cleaned"
+the final list for rank worst is being printed
+                                     hospital state
+WI MAYO CLINIC HEALTH SYSTEM - NORTHLAND, INC    WI
+WV                     PLATEAU MEDICAL CENTER    WV
+WY           NORTH BIG HORN HOSPITAL DISTRICT    WY
+[1] 17
+[1] "data cleaned"
+the final list for rank best is being printed
+                                                            hospital state
+TN                         WELLMONT HAWKINS COUNTY MEMORIAL HOSPITAL    TN
+TX                                        FORT DUNCAN MEDICAL CENTER    TX
+UT VA SALT LAKE CITY HEALTHCARE - GEORGE E. WAHLEN VA MEDICAL CENTER    UT
+VA                                          SENTARA POTOMAC HOSPITAL    VA
+VI                            GOV JUAN F LUIS HOSPITAL & MEDICAL CTR    VI
+VT                                              SPRINGFIELD HOSPITAL    VT
+WA                                         HARBORVIEW MEDICAL CENTER    WA
+WI                                    AURORA ST LUKES MEDICAL CENTER    WI
+WV                                         FAIRMONT GENERAL HOSPITAL    WV
+WY                                        CHEYENNE VA MEDICAL CENTER    WY
+Sourced file ~/agent18/DSS/assignments/assignment-c2-w4/rankall.R
+Warning messages:
+1: In rankall("heart attack", 20) : NAs introduced by coercion
+2: In rankall("pneumonia", "worst") : NAs introduced by coercion
+3: In rankall("heart failure") : NAs introduced by coercion
+> r <- rankall("heart attack", 4)
+as.character(subset(r, state == "HI")$hospital)
+r <- rankall("heart attack", 4)
+[1] 11
+[1] "data cleaned"
+the final list for rank 4 is being printed
+Warning message:
+In rankall("heart attack", 4) : NAs introduced by coercion
+> as.character(subset(r, state == "HI")$hospital)
+[1] "CASTLE MEDICAL CENTER"
+> r <- rankall("pneumonia", "worst")
+as.character(subset(r, state == "NJ")$hospital)
+r <- rankall("pneumonia", "worst")
+[1] 23
+[1] "data cleaned"
+the final list for rank worst is being printed
+Warning message:
+In rankall("pneumonia", "worst") : NAs introduced by coercion
+> as.character(subset(r, state == "NJ")$hospital)
+[1] "BERGEN REGIONAL MEDICAL CENTER"
+> r <- rankall("heart failure", 10)
+as.character(subset(r, state == "NV")$hospital)
+r <- rankall("heart failure", 10)
+[1] 17
+[1] "data cleaned"
+the final list for rank 10 is being printed
+Warning message:
+In rankall("heart failure", 10) : NAs introduced by coercion
+> as.character(subset(r, state == "NV")$hospital)
+[1] "RENOWN SOUTH MEADOWS MEDICAL CENTER"
+> 
